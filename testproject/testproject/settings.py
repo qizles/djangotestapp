@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ["192.168.53.31", "qizl.es", "localhost"]
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
